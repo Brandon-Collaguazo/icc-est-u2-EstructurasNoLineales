@@ -12,5 +12,8 @@ public class App {
         arbolBinario.insert(14);
         arbolBinario.insert(19);
         arbolBinario.imprimirArbol();
+
+        System.out.println("El valor 23 existe? " + arbolBinario.buscar(23));
+
     }
 }
