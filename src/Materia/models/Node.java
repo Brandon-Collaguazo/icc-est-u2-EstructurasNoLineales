@@ -4,12 +4,22 @@ public class Node {
 
     private Node left;
     private Node right;
+    private int peso;
     private int value;
 
     public Node(int value) {
         this.left = null;
         this.right = null;
         this.value = value;
+        this.peso = peso;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public void setPeso(int peso) {
+        this.peso = peso;
     }
 
     public Node getLeft() {
